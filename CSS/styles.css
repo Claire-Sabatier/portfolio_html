@@ -1,0 +1,470 @@
+/* mobile first */
+
+/* Haut de la page */
+.bg_photo{
+    background-image: url('../img/feuilles.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 300px;
+}
+.photo_profil{
+    background-image: url('../img/profil.jpg');
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 50px;    
+}
+
+.presentation{
+    font-weight: bold;
+    margin-left: 15px;
+    text-align: center;
+}
+.presentation h1{
+    font-size: 26px;
+    color: #D28A7C;
+}
+.presentation h2{
+    color: #e8b298;
+}
+
+.cv {
+    background-color: #e8b298;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 40px;
+    height: 30px;
+    margin-top: 2%;
+}
+
+/* Partie projets */
+.projets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.projets h2{
+    font-size: 25px;
+    color: #A26360;
+    margin-bottom: 1%;
+}
+
+.projets h3{
+    color: #0f9744;
+    font-size: 18px ;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.azzura, .chordserve, .travelGo, .portfolio{
+    background-color: seagreen;
+    height: 100px;
+    width: 40%;
+    border-radius: 33px;
+    margin-top: 20px;
+}
+.azzura{
+    background-image: url('../img/sofa.jpg');
+    background-size: cover;
+}
+.chordserve{
+    background-image: url('../img/guitar.jpg');
+    background-size: cover;
+}
+.travelGo{
+    background-image: url('../img/travel.jpg');
+    background-size: cover;
+}
+.portfolio{
+    background-image: url('../img/portfolio.jpg');
+    background-size: cover;
+}
+.azzura_text, .chordserve_text, .travelGo_text, .portfolio_text{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 16px;
+    color: #5e7165;
+    width: 200px;
+    border-radius: 33px;
+}
+
+/* Parcours scolaire */
+.parcours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.parcours h2{
+    font-size: 25px;
+    color: #A26360;
+    margin-bottom: 10%;
+}
+
+.timeline {
+    display: none;
+}
+.frise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frise h4{
+    font-size: 16px;
+    color: #A26360;
+}
+.frise h5{
+    font-size: 16px;
+    color: #f3a2a2;
+}
+.frise p {
+    color: #edcc8b;
+    font-size: 16px;
+}
+.frise div{
+    text-align: center;
+    
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #30553f;
+}
+
+.frise hr{
+    transform: rotate(90deg);
+    background-color:#f3a2a2;    
+    width: 40px;
+    height: 1px;
+}
+
+/* Compétences */
+.competences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.competences h2{
+    font-size: 25px;
+    color: #A26360;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.competences .fond{
+    height: 5px;
+    width: 300px;
+    border:solid #da8b6e;
+    border-radius: 33px;
+}
+.competences .niveau{
+    height: 5px;
+    background-color: #da8b6e;
+    border-radius: 33px;
+}
+.competences .java .niveau{
+    width: 200px;    
+}
+.competences .js .niveau{
+    width: 250px;
+}
+.competences .htmlcss .niveau{
+    width: 245px;
+}
+.competences .php .niveau{
+    width: 235px;
+}
+.competences .sql .niveau{
+    width: 265px;
+}
+.competences .mater .niveau{
+    width: 280px;
+}
+
+.js, .htmlcss, .php, .sql, .mater{
+    margin-top: 15px;;
+}
+
+.competences h3{
+    color: #A26360;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Réseaux sociaux */
+
+.reseaux h2{
+    font-size: 25px;
+    color: #A26360;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.partie_haute, .partie_basse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.partie_center{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #A26360;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-image: url('../img/profil.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.fb, .insta, .twi, .ln{
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 33px;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fb{
+    border-color: rgb(13, 13, 172);
+    background-image: url('../img/facebook.png');
+}
+.insta{
+    border-color: rgb(206, 78, 31);
+    background-image: url('../img/instagram.png');
+}
+.twi{
+    border-color: rgb(0, 162, 255);
+    background-image: url('../img/twitter.png');
+}
+.ln{
+    border-color: darkblue;
+    background-image: url('../img/linkedin.png');
+}
+
+/* Partie footer */
+
+footer{
+    margin-top: 10%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color:#f3a2a2;
+}
+
+footer p{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+  /* version pc */
+  @media screen and (min-width: 900px) {
+      /* Haut de la page */
+        .bg_photo{
+            height: 500px;
+        }
+        .content{
+            height: 500px;
+        }
+        .photo_profil{
+            height: 200px;
+            width: 200px;
+            border-radius: 150px;    
+        }
+
+        .presentation h1{
+            font-size: 40px;
+        }
+        .presentation h2{
+            font-size: 25px;
+        }
+
+        .cv {
+            border-radius: 20px;
+            width: 60px;
+            height: 40px;
+            font-size: 20px;
+        }
+        /* Partie projets */
+    
+        .projets h2{
+            font-size: 40px;
+        }
+
+        .projets h3{
+            font-size: 25px ;
+        }
+
+        .azzura, .chordserve, .travelGo, .portfolio{
+            height: 200px;
+            width: 30%;
+            background-position: center;
+        }
+        
+        .azzura_text, .chordserve_text, .travelGo_text, .portfolio_text{
+            font-size: 20px;
+            width: 300px;
+        }
+        /* Parcours scolaire */
+        .parcours h2{
+            font-size: 40px;
+        }
+
+
+        
+        .frise{
+            display: none;
+        }
+        .timeline {
+            display: block;
+            white-space: nowrap;
+            overflow-x: hidden;
+        }
+        time{
+            color: #edcc8b;
+            font-weight: bold;
+        }
+       
+        .timeline ol {
+            font-size: 0;
+            width: 50%;
+            padding: 100px 0;
+            transition: all 1s;
+        }
+        /* ligne */
+        .timeline ol li {
+            position: relative;
+            display: inline-block;
+            list-style-type: none;
+            width: 160px;
+            height: 3px;
+            background:#A26360;
+        }
+    
+        .timeline ol li:last-child {
+            width: 280px;
+        }
+        
+        .timeline ol li:not(:first-child) {
+            margin-left: 14px;
+        }
+    
+        .timeline ol li:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: calc(100% + 1px);
+            bottom: 0;
+            width: 12px;
+            height: 12px;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            background: #f3a2a2;
+        }
+    
+        .timeline ol li div {
+            position: absolute;
+            left: calc(100% + 5px);
+            width: 280px;
+            padding: 15px;
+            font-size: 20px;
+            white-space: normal;
+            color: #A26360;
+            border-left: dashed #f3a2a2;
+            
+        }
+        .timeline h5{
+            color: #f3a2a2;
+        }
+        .timeline ol li:nth-child(odd) div {
+            
+            transform: translateY(-100%);
+        }
+        /* Compétences */
+        
+        .competences h2{
+            font-size: 40px;
+        }
+        .competences .fond{
+            width: 500px;
+        }
+        
+        .competences .java .niveau{
+            width: 400px;    
+        }
+        .competences .js .niveau{
+            width: 450px;
+        }
+        .competences .htmlcss .niveau{
+            width: 445px;
+        }
+        .competences .php .niveau{
+            width: 435px;
+        }
+        .competences .sql .niveau{
+            width: 465px;
+        }
+        .competences .mater .niveau{
+            width: 480px;
+        }
+
+        .competences h3{
+            font-size: 25px;
+        }
+        /* Réseaux sociaux */
+
+        .reseaux h2{
+            font-size: 40px;
+        }
+
+        .icones{
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        .partie_center{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+
+        .fb, .insta, .twi, .ln{
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+        }
+
+        /* Partie footer */
+
+        footer{
+            height: 80px;
+            text-align: center;
+        }
+
+        footer p{
+            font-size: 25px;
+        }
+
+
+  }
+  
